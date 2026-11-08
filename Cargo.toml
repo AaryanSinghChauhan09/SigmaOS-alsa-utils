@@ -1,0 +1,12 @@
+[package]
+name = "sigmaos_alsa_utils"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "SigmaOS alsa-utils component inspired by Linux Mint / Omarchy / Arch Linux."
+
+[dependencies]
+
+[lib]
+name = "sigmaos_alsa_utils"
+path = "src/lib.rs"
